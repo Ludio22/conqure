@@ -1,0 +1,21 @@
+.one,
+.two {
+    flex: 0 1 100% !important;
+}
+
+.form {
+    &__wrapper {
+        flex-direction: column;
+        input {
+            margin-bottom: 1em;
+        }
+    }
+}
+
+h1 {
+    font-size: 52px !important;
+}
+
+.services p {
+    max-width: 95%;
+}

@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+    .column {
+        &__item {
+            &.one {
+                flex: 0 1 48%;
+                &:nth-child(-n+3) {
+                    margin-bottom: 3em;
+                }
+            }
+        }
+    }
+    .go-top {
+        left: 85%;
+    }
+}

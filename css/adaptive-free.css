@@ -1,0 +1,26 @@
+.one,
+.two {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 1 100% !important;
+          flex: 0 1 100% !important;
+}
+
+.form__wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__wrapper input {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 52px !important;
+}
+
+.services p {
+  max-width: 95%;
+}
+/*# sourceMappingURL=adaptive-free.css.map */
